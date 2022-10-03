@@ -2,15 +2,15 @@ package dto;
 
 public class Producto {
 
-	private int id;
+	private Integer id;
 	
 	private String channel;
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -22,7 +22,7 @@ public class Producto {
 		this.channel = channel;
 	}
 
-	public Producto(int id, String channel) {
+	public Producto(Integer id, String channel) {
 		super();
 		this.id = id;
 		this.channel = channel;
