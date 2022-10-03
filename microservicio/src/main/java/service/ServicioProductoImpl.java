@@ -1,7 +1,10 @@
 package service;
 
+import org.springframework.stereotype.Service;
+
 import dto.Producto;
 
+@Service
 public class ServicioProductoImpl implements ServicioProductoI {
 
 	@Override
