@@ -17,7 +17,7 @@ public class ServicioProductoImpl implements ServicioProductoI {
 	@Value("${server.port}")
 	private String port;
 	
-	@Value("${server.product-name}")
+	@Value("${product.product-name}")
 	private String productName;
 	
 	@GetMapping(path="/product-name")
